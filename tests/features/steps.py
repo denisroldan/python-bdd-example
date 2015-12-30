@@ -18,4 +18,7 @@ def check_number(step, expected):
 
 
 def factorial(number):
-	return 1
+	if number in [0, 1]:
+		return 1
+	else:
+		return number
